@@ -27,7 +27,7 @@
 		}
 		
 		public String toString() { 		//toString //overriding
-			return ("Name = " + super.name + "" + "\n weight = " + quantity + "\n price :" + price + " each");
+			return ("Name = " + super.name + "" + "\n quantity = " + quantity + "\n price :" + price + " each");
 		}
 		
 		public double totalPrice() {				//overloading with no arg

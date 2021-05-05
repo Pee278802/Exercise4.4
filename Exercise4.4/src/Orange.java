@@ -7,7 +7,6 @@ class Orange extends Fruit{							//subclass of fruit
 		this.colour = colour;
 		this.weight = weight;
 		this.price = price;
-		System.out.println();
 		
 		if (this.weight < 1.00) {
 			System.out.println("The total price is RM" + totalPrice());
@@ -28,7 +27,7 @@ class Orange extends Fruit{							//subclass of fruit
 		System.out.println("Types of Orange:");
 		for (int i = 0; i < typesOfOrange.length; i++) {
 			System.out.println(typesOfOrange[i]);
-		}		System.out.println();
+		}
 	}
 	
 	public String toString() { //toString //overriding

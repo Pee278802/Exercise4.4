@@ -8,7 +8,7 @@ class greenApple extends Apple{
 
 }
 	public String toString() { //toString //overriding
-		return ("Name = " + super.name + "" + "\n colour = " + colour + "\n weight = " + weight + "\n price :" + price + "each");
+		return ("Name = " + super.name + "" + "\n colour = " + colour + "\n quanitity = " + super.quantity + "\n price :RM" + super.price + " each");
 		
 
 }
